@@ -1,25 +1,13 @@
-# Time-Series Analysis  
-**Analysing the Impact of Economic Growth on Energy Consumption During High and Low Growth Periods**
+# 📘 Project Overview
 
-## Introduction  
-Numerous studies have explored the relationship between energy consumption and economic growth. While some argue that GDP growth drives energy usage, others suggest the reverse. Energy consumption encompasses all energy used in production, households, and transportation, measured in units like joules, BTUS, or terawatt-hours. Economic growth is commonly represented by GDP, with real GDP (adjusted for inflation) offering a clearer picture of changes in economic output.
+This project analyzes the relationship between economic growth and energy consumption across selected Asian countries over the period 1966–2021. The study distinguishes between periods of high and low GDP growth and examines how these regimes affect energy usage patterns.
 
-Studies have shown mixed results: some, like Cheng (1999) and Ghosh (2002), found that GDP affects energy use, while others, like Hwang and Gum (1991), observed the opposite. This highlights the importance of context and methodology in analysing this relationship.
+## 🔍 Key Components:
+- Time series analysis of GDP and energy consumption growth  
+- Stationarity testing using the **Augmented Dickey-Fuller (ADF)** test  
+- **Autocorrelation and persistence analysis** via **ACF, PACF**, and **Ljung-Box** tests  
+- Modeling using **AR/ARMA processes** where applicable  
+- Segregated regression models for **high and low GDP growth regimes**  
+- Country-wise comparison using **OLS regression**, with hypothesis testing for statistical significance  
 
-## Motivation  
-Despite extensive research, fewer studies have focused on how energy consumption behaves under **different GDP growth regimes**. This paper investigates how **high (above mean)** and **low (below mean)** GDP growth periods affect energy consumption in selected Asian countries, offering insights for policy-making and sustainable development.
-
-## Objective  
-To examine the influence of economic growth on energy consumption during high and low growth periods across seven Asian countries, analysing how different economic phases impact energy usage.
-
-## Data  
-The study uses time-series data from **1966 to 2021**, with GDP growth data from **Macrotrends** and energy consumption data from **Our World in Data**, converted to **terawatt-hours**. The sample includes **five developing countries** (India, Indonesia, Thailand, Philippines, Pakistan) and **two developed nations** (Japan, Singapore), allowing for a balanced analysis across different stages of economic development.
-
-
-This study involves a time series analysis to examine the relationship between economic growth and energy consumption across selected Asian countries during periods of high and low GDP growth. It includes:
-
-Stationarity testing to determine if the data is suitable for time series modelling.
-
-ACF and PACF analysis to understand autocorrelation patterns and identify potential lag structures.
-
-Segregation of data based on high and low growth regimes (above and below the  mean GDP growth).
+The analysis provides insights that can inform energy policy and economic planning, especially for sustainable growth across diverse economies.
